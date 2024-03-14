@@ -118,8 +118,8 @@
 
 
     {
-        "id": "Body blanco1",
-        "titulo": "Body blanco",
+        "id": "Body rojo",
+        "titulo": "Body rojo",
         "imagen": "mujeres_img/Bodys/p1.jpg",
         "categoria": {
             "nombre": "Bodys",

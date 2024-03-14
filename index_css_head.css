@@ -270,7 +270,7 @@ a {
 		position: fixed;
 		left: 0;
 		background: #2d2a30b6;              /*color del fondo responsi*/
-		height: 28vh;						/*largo de los submenus*/
+		height: 38vh;						/*largo de los submenus*/
 		width: 40%;							/*ancho de los submenus*/
 		z-index: 2000;
 		transition: .3s ease all;

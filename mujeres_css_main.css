@@ -245,7 +245,7 @@ main {
 
 .carrito-vacio,
 .carrito-comprado {
-    color: var(--clr-main);
+    color: var(--clr-black);
 }
 
 .carrito-productos {
@@ -288,10 +288,10 @@ main {
 
 .carrito-acciones-vaciar {
     border: 0;
-    background-color: var(--clr-gray);
+    background-color: #cccccc;
     padding: 1rem;
     border-radius: 1rem;
-    color: var(--clr-main);
+    color: var(--clr-black);
     text-transform: uppercase;
     cursor: pointer;
 }
@@ -313,9 +313,10 @@ main {
 
 .carrito-acciones-comprar {
     border: 0;
-    background-color: var(--clr-main);
+    background-color:#cccccc;
+    border-color: #000000;
     padding: 1rem;
-    color: var(--clr-white);
+    color: var(--clr-black);
     text-transform: uppercase;
     cursor: pointer;
     border-top-right-radius: 1rem;

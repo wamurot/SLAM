@@ -1,0 +1,158 @@
+[
+    {
+        "id": "POLO CON ESCOTE",
+        "titulo": "POLO CON ESCOTE",
+        "imagen": "mujeres_img/Blusas_y_polos/p1.jpg",    
+            "categoria": {
+            "nombre": "Blusas y polos",
+            "id": "blusas-polos"
+        },
+        "precio": 38.00
+    },
+    {
+        "id": "POLO MODELO OJAL",
+        "titulo": "POLO MODELO OJAL",
+        "imagen": "mujeres_img/blusas_y_polos/p2.jpg",    
+        "categoria": {
+            "nombre": "blusas-polos",
+            "id": "blusas-polos"
+        },
+        "precio": 38.00
+    },
+    {
+        "id": "TOP MAGGI",
+        "titulo": "TOP MAGGI",
+        "imagen": "mujeres_img/blusas_y_polos/p3.jpg",    
+        "categoria": {
+            "nombre": "blusas-polos",
+            "id": "blusas-polos"
+        },
+        "precio": 45.00
+    },
+    {
+        "id": "TOP kATE",
+        "titulo": "TOP kATE",
+        "imagen": "mujeres_img/blusas_y_polos/p4.jpg",    
+        "categoria": {
+            "nombre": "blusas-polos",
+            "id": "blusas-polos"
+        },
+        "precio": 45.00
+    },
+    {
+        "id": "BASICO ANTON",
+        "titulo": "BASICO ANTON",
+        "imagen": "mujeres_img/blusas_y_polos/p5.jpg",    
+        "categoria": {
+            "nombre": "blusas-polos",
+            "id": "blusas-polos"
+        },
+        "precio": 49.00
+    },
+    {
+        "id": "TOP PERLA",
+        "titulo": "TOP PERLA",
+        "imagen": "mujeres_img/blusas_y_polos/p6.jpg",    
+        "categoria": {
+            "nombre": "blusas-polos",
+            "id": "blusas-polos"
+        },
+        "precio": 45.00
+    },
+    {
+        "id": "TOP PERLA 1",
+        "titulo": "TOP PERLA",
+        "imagen": "mujeres_img/blusas_y_polos/p7.jpg",    
+        "categoria": {
+            "nombre": "blusas-polos",
+            "id": "blusas-polos"
+        },
+        "precio": 55.00
+    },
+
+
+
+
+
+
+
+
+
+
+
+    {    
+        "id": "Polivestido rojo",                     
+        "titulo": "Polivestido rojo",
+        "imagen": "mujeres_img/vestidos/p1.jpg",    
+        "categoria": {
+            "nombre": "Vestidos",
+            "id": "vestidos"
+        },
+        "precio": 55
+    },
+    {
+        "id": "Polivestido negro",
+        "titulo": "Polivestido negro",
+        "imagen": "mujeres_img/vestidos/p2.jpg",
+        "categoria": {
+            "nombre": "vestidos",
+            "id": "vestidos"
+        },
+        "precio": 55
+    },
+    {
+        "id": "Polivestido celeste",
+        "titulo": "Polivestido celeste",
+        "imagen": "mujeres_img/vestidos/p3.jpg",
+        "categoria": {
+            "nombre": "vestidos",
+            "id": "vestidos"
+        },
+        "precio": 55
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "id": "Body rojo",
+        "titulo": "Body rojo",
+        "imagen": "mujeres_img/bodys/p1.jpg",
+        "categoria": {
+            "nombre": "bodys",
+            "id": "bodys"
+        },
+        "precio": 35
+    },
+    {
+        "id": "Body blanco",
+        "titulo": "Body blanco",
+        "imagen": "mujeres_img/bodys/p2.jpg",
+        "categoria": {
+            "nombre": "bodys",
+            "id": "bodys"
+        },
+        "precio": 35
+    },
+    {
+        "id": "Body negro",
+        "titulo": "Body negro",
+        "imagen": "mujeres_img/bodys/p3.jpg",
+        "categoria": {
+            "nombre": "bodys",
+            "id": "bodys"
+        },
+        "precio": 35
+    }
+]

@@ -315,7 +315,7 @@ a {
 		transition: .3s ease all;
 		transform: translateX(-100%);
 		z-index: 3000;
-		height: 35vh;			/*largo de los submenus*/
+		height: 45vh;			/*largo de los submenus*/
 		width: 40%;				/*ancho de los submenus*/
 		position: fixed;
 		top: 0;

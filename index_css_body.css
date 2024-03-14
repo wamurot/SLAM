@@ -178,14 +178,14 @@ html {
 
 .category-casual {
 	background-image: linear-gradient(#00000080, #00000080),
-	url('/index_img/casual.jpg');
+	url('index_img/casual.jpg');
 	background-size: cover;
 	background-position: bottom;
 	background-repeat: no-repeat;
 }
 .category-elegante {
 	background-image: linear-gradient(#00000080, #00000080),
-	url('/index_img/elegante.jpg');
+	url('index_img/elegante.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -193,7 +193,7 @@ html {
 
 .category-deportivo {
 	background-image: linear-gradient(#00000080, #00000080),
-	url('/index_img/deportivo.jpg');
+	url('index_img/deportivo.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;

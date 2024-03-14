@@ -117,21 +117,13 @@
 
 
 
-
-
-
-
-
-
-
-
     {
-        "id": "Body blanco",
+        "id": "Body blanco1",
         "titulo": "Body blanco",
         "imagen": "mujeres_img/Bodys/p2.jpg",
         "categoria": {
             "nombre": "Bodys",
-            "id": "bodys"
+            "id": "bodys1"
         },
         "precio": 35
     },

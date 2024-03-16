@@ -9,6 +9,10 @@
 	<link rel="stylesheet" href="index_css_footer.css">
 	<script src="https:///kit.fontawesome.com/2c36e9b7b1.js"></script>
 	
+		<link rel="stylesheet" href="index_vista_previa.css">
+		
+
+	
 
 	<!-- para los logos  -->
 	<script
@@ -62,31 +66,35 @@
 						
 						<!-- <a href="/mujeres/mujeres_index.html" data-categoria="mujer">Mujer <i class="fas fa-angle-right"></i></a> -->
 						<a href="mujeres_html_index.html" data-categoria="mujer">Mujer <i class="fas fa-angle-right"></i></a>
-						<!-- <a href="#" data-categoria="hombre">Hombre <i class="fas fa-angle-right"></i></a>
-						<a href="#" data-categoria="niña">Niña <i class="fas fa-angle-right"></i></a>
+						<a href="hombres_html_index.html" data-categoria="hombre">Hombre <i class="fas fa-angle-right"></i></a>
+						<!-- <a href="#" data-categoria="niña">Niña <i class="fas fa-angle-right"></i></a>
 						<a href="#" data-categoria="niños">Niños <i class="fas fa-angle-right"></i></a>
 						<a href="#" data-categoria="juegos-y-juguetes">Otros<i class="fas fa-angle-right"></i></a>	 -->
 					</div>
 	
 					<div class="contenedor-subcategorias">
+						<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
 						<div class="subcategoria " data-categoria="mujer">
-							<div class="enlaces-subcategoria">
-								<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
-								<h3 class="subtitulo">Mujer</h3>
+							<!-- <div class="enlaces-subcategoria">
+							
+								 <h3 class="subtitulo">Mujer</h3>
 								<a href="#"> Blusas y Polos</a>
 								<a href="#">Enterizos</a>					
 								<a href="#">Pantalones</a>
 								<a href="#">Shorts</a>
 								<a href="#">Vestidos</a>
 								
-							</div>				
-						</div>											
+							</div>				 -->
+
+						</div>	
+						
+
 					</div>
 				</div>
 			</div>
 		</nav>
-	
-
+		
+		
 		<script src="https:///kit.fontawesome.com/2c36e9b7b1.js"></script>
 
 
@@ -181,7 +189,7 @@
 					<!-- Producto 1 -->
 						<div class="card-product">
 							<div class="container-img">
-								<img src="index_img/especial 01.jpg" alt="Cafe Irish" />
+								<img id="promo01" src="index_img/especial 01.jpg" alt="Cafe Irish" />
 								<span class="discount">-13%</span>
 								
 							</div>
@@ -195,7 +203,7 @@
 					<!-- Producto 2 -->
 					<div class="card-product">
 						<div class="container-img">
-							<img src="index_img/especial 02.jpg" alt="Cafe incafe-ingles.jpg"	/>
+							<img  id="promo02" src="index_img/especial 02.jpg" alt="Cafe incafe-ingles.jpg"	/>
 							<span class="discount">-22%</span>
 		
 						</div>
@@ -209,7 +217,7 @@
 					<!--  -->
 					<div class="card-product">
 						<div class="container-img">
-							<img src="index_img/especial 03.jpg" alt="Cafe Viena" />
+							<img  id="promo03" src="index_img/especial 03.jpg" alt="Cafe Viena" />
 							<span class="discount">-30%</span>
 							
 						</div>
@@ -223,7 +231,7 @@
 					<!--   -->
 					<div class="card-product">
 						<div class="container-img">
-							<img src="index_img/especial 04.jpg" alt="Cafe Liqueurs" />
+							<img  id="promo04" src="index_img/especial 04.jpg" alt="Cafe Liqueurs" />
 							<span class="discount">-30%</span>
 							
 						</div>
@@ -235,7 +243,24 @@
 						</div>
 					</div>
 				</div>
-			</section>
+
+				<!-- The Modal -->
+				<div id="myModal" class="modal">
+					<!-- The Close Button -->
+					<span class="close">&times;</span>
+				
+					<!-- Modal Content (The Image) -->
+					<img class="modal-content" id="img01">						
+				
+					<!-- Modal Caption (Image Text) -->
+					<div id="caption"></div>
+				</div>
+				<script src="index_vista_previa.js"></script>
+			
+				
+						
+						
+				</section>
 
 			
 
@@ -250,14 +275,10 @@
 	
 	</main>
 
-
-
-
 	<script src="https:///kit.fontawesome.com/2c36e9b7b1.js"></script>
 	<script src="index_js_main.js"></script>
+
 	
-
-
 </body>
 
 <footer class="footer-distributed">

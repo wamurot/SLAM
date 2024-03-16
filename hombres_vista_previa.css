@@ -2,13 +2,19 @@
 #myImg01 {
   border-radius: 5px;
   cursor: pointer;
-  transition: 0.3s;
+  transition: 0.9s;
 }
 
-#myImg01:hover {opacity: 0.7;}
-#myImg02:hover {opacity: 0.7;}
-#myImg03:hover {opacity: 0.7;}
-#myImg04:hover {opacity: 0.7;}
+#polo01:hover {opacity: 0.7;}
+#polo02:hover {opacity: 0.7;}
+#polo03:hover {opacity: 0.7;}
+#polo04:hover {opacity: 0.7;}
+#polo05:hover {opacity: 0.7;}
+#polo06:hover {opacity: 0.7;}
+#polo07:hover {opacity: 0.7;}
+#body01:hover {opacity: 0.7;}
+#body02:hover {opacity: 0.7;}
+#body03.close {opacity: 0.7;}
 
 /* The Modal (background) */
 .modal {
@@ -30,7 +36,7 @@
   margin: auto;
   display: block;
   width: 80%;
-  max-width: 500px;
+  max-width: 600px;           /*tamaño de la foto en la vista*/
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
@@ -48,7 +54,7 @@
 /* Add Animation - Zoom in the Modal */
 .modal-content, #caption {
   animation-name: zoom;
-  animation-duration: 0.6s;
+  animation-duration: 0.3s;       /*tiempo en visualizar la foto*/
 }
 
 @keyframes zoom {
@@ -59,8 +65,8 @@
 /* The Close Button */
 .close {
   position: absolute;
-  top: 15px;
-  right: 35px;
+  top: 50px;
+  right: 620px;
   color: #f1f1f1;
   font-size: 40px;
   font-weight: bold;
@@ -72,11 +78,20 @@
   color: #bbb;
   text-decoration: none;
   cursor: pointer;
+  
 }
 
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){
   .modal-content {
-    width: 100%;
+    width: 80%;
   }
+
+  .close {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+
+  }
+
 }

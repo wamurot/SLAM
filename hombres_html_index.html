@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">	
+	<script src="https:///kit.fontawesome.com/2c36e9b7b1.js"></script>
+	<link rel="stylesheet" href="hombres.css">
+    <link rel="stylesheet" href="hombres_vista_previa.css">
+	
+
+</head>
+
+
+
+	
+<body>
+    <h2>Categorías</h2>
+    <a href="slam.html"><button class="btn-regresar1"><i class="fas fa-arrow-left"></i> Regresar </button></a>
+   <br><br><br> <div id="myBtnContainer">
+      <button class="btn active" onclick="filterSelection('all')"> Todo</button>
+      <button class="btn" onclick="filterSelection('nature')">Polos</button>
+      <button class="btn" onclick="filterSelection('cars')"> Bodys</button>
+
+      <!-- <button class="btn" onclick="filterSelection('people')"> People</button> -->
+    </div>
+    
+    <!-- Portfolio Gallery Grid -->
+    <div class="row">
+
+       
+          
+        <div class="column nature">
+            <div class="content">
+              <img id="polo01" src="/mujeres_img/Blusas_y_polos/p1.jpg" alt="Lights" style="width:100%">
+              <h4>Lights</h4>
+              <p>Lorem ipsum dolor..</p>
+            </div>
+        </div>
+          
+        <div class="column nature">
+            <div class="content">
+              <img id="polo02" src="/mujeres_img/Blusas_y_polos/p2.jpg" alt="Lights" style="width:100%">
+              <h4>Lights</h4>
+              <p>Lorem ipsum dolor..</p>
+            </div>
+        </div>
+            
+      <div class="column nature">
+        <div class="content">
+          <img id="polo03" src="/mujeres_img/Blusas_y_polos/p3.jpg" alt="Nature" style="width:100%">
+          <h4>Forest</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+    
+      <div class="column nature">
+        <div class="content">
+          <img id="polo04" src="/mujeres_img/Blusas_y_polos/p4.jpg" alt="Car" style="width:100%">
+          <h4>Retro</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column nature">
+        <div class="content">
+          <img id="polo05" src="/mujeres_img/Blusas_y_polos/p5.jpg" alt="Car" style="width:100%">
+          <h4>Fast</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column nature">
+        <div class="content">
+          <img id="polo06" src="/mujeres_img/Blusas_y_polos/p6.jpg" alt="Car" style="width:100%">
+          <h4>Classic</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+    
+      <div class="column nature">
+        <div class="content">
+          <img id="polo07" src="/mujeres_img/Blusas_y_polos/p7.jpg" alt="People" style="width:100%">
+          <h4>Girl</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column cars">
+        <div class="content">
+          <img id="body01" src="/mujeres_img/Bodys/p1.jpg" alt="People" style="width:100%">
+          <h4>Man</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column cars">
+        <div class="content">
+          <img id="body02" src="/mujeres_img/Bodys/p2.jpg" alt="People" style="width:100%">
+          <h4>Woman</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column cars">
+        <div class="content">
+          <img id="body03" src="/mujeres_img/Bodys/p3.jpg" alt="People" style="width:100%">
+          <h4>Woman</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+    <!-- END GRID -->
+    </div>
+
+
+    
+    <div id="myModal" class="modal">
+        <!-- The Close Button -->
+        <span class="close">&times;</span>
+    
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="img01">						
+    
+        <!-- Modal Caption (Image Text) -->
+        <div id="caption"></div>
+    </div>
+    <script src="hombres_vista_previa.js"></script>
+
+
+    <script src="hombres_menu.js"></script>
+
+</body>
+
+
+</html>

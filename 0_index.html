@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<script src="https:///kit.fontawesome.com/2c36e9b7b1.js"></script>	
+	<link rel="stylesheet" href="1_index_head.css">
+	<link rel="stylesheet" href="2_index_body.css">
+	<link rel="stylesheet" href="3_index_footer.css">
+	<link rel="stylesheet" href="4_index_pestaña.css">	
+
+		
+
+	
+
+</head>
+
+
+
+	
+<body>
+
+
+	<main class="contenedor">
+
+		
+		<pesta>
+			<button class="tablink" onclick="openPage('Home', this, 'red')" id="defaultOpen">Inicio</button>
+			<button class="tablink" onclick="openPage('News', this, 'green')" >Mujeres</button>
+			<button class="tablink" onclick="openPage('Contact', this, 'blue')">Hombres</button>
+			<button class="tablink" onclick="openPage('About', this, 'orange')">Carrito</button>
+			
+			
+			<!-- ----------------------------------------------------------------------------- Inicio-->
+
+			<div id="Home" class="tabcontent">
+		
+				<index>
+
+					
+					<link rel="stylesheet" href="6_index_vista_previa.css">
+	
+					<div class="slider-frame">   
+						
+						<ul>
+							
+							<li><img src="index_img/slider/slider1.jpg" alt=""></li>
+							<li><img src="index_img/slider/slider2.jpg" alt=""></li>
+							<li><img src="index_img/slider/slider3.jpg" alt=""></li>
+							<li><img src="index_img/slider/slider4.jpg" alt=""></li>
+							
+				
+						
+							
+						</ul>
+					</div>
+			
+			
+				<main class="contenedor">
+			
+			
+					<br><br><br>
+					<div class="main-content">
+							<section class="container container-features">
+							<div class="card-feature">
+								<i class="fa-solid fa-plane-up"></i>
+								<div class="feature-content">
+									<span>Envío gratuito</span>
+									<p>En pedido superior a S/. 100</p>
+								</div>
+							</div>
+							<div class="card-feature">
+								<i class="fa-solid fa-wallet"></i>
+								<div class="feature-content">
+									<span>Contrareembolso</span>
+									<p>100% garantía de devolución de dinero</p>
+								</div>
+							</div>
+							<div class="card-feature">
+								<i class="fa-solid fa-gift"></i>
+								<div class="feature-content">
+									<span>Tarjeta regalo especial</span>
+									<p>Ofrece bonos especiales con regalo</p>
+								</div>
+							</div>
+							<div class="card-feature">
+								<i class="fa-solid fa-headset"></i>
+								<div class="feature-content">
+									<span>Servicio al cliente 24/7</span>
+									<p>LLámenos 24/7 al 972-420-849</p>
+								</div>
+							</div>
+						</section>
+			
+						<section class="container top-categories">
+							<h1 class="heading-1">Mejores Categorías</h1>
+							<div class="container-categories">
+								<div class="card-category category-casual">
+									<p>Casual</p>
+									<span>Ver más</span>
+								</div>
+								<div class="card-category category-elegante">
+									<p>Elegante</p>
+									<span>Ver más</span>
+								</div>
+								<div class="card-category category-deportivo">
+									<p>Deportivo</p>
+									<span>Ver más</span>
+								</div>
+								
+							</div>
+						</section>
+			
+			
+			
+						
+			
+						<section class="container specials">
+							<h1 class="heading-1">Promociones</h1>
+			
+							<div class="container-products">
+								<!-- Producto 1 -->
+									<div class="card-product">
+										<div class="container-img">
+											<img id="01_promociones" src="index_img/especial 01.jpg" alt="Cafe Irish" />
+											<span class="discount">-13%</span>
+											
+										</div>
+										<div class="content-card-product">
+											<br><br>	
+										<br>	<h3>Modelo 01</h3>
+											
+											<p class="price">S/. 40.90 <span>S/. 50.90</span></p>
+										</div>
+									</div>
+								<!-- Producto 2 -->
+								<div class="card-product">
+									<div class="container-img">
+										<img  id="02_promociones" src="index_img/especial 02.jpg" alt="Cafe incafe-ingles.jpg"	/>
+										<span class="discount">-22%</span>
+					
+									</div>
+									<div class="content-card-product">
+										<br><br>
+										<br><h3>Modelo 02</h3>
+										
+										<p class="price">S/. 50.90 <span>S/. 70.90</span></p>
+									</div>
+								</div>
+								<!--  -->
+								<div class="card-product">
+									<div class="container-img">
+										<img  id="03_promociones" src="index_img/especial 03.jpg" alt="Cafe Viena" />
+										<span class="discount">-30%</span>
+										
+									</div>
+									<div class="content-card-product">
+										<br><br>
+										<br><h3>Modelo 03</h3>
+										
+										<p class="price">S/. 30.90 <span>S/. 50.90</span></p>
+									</div>
+								</div>
+								<!--   -->
+								<div class="card-product">
+									<div class="container-img">
+										<img  id="04_promociones" src="index_img/especial 04.jpg" alt="Cafe Liqueurs" />
+										<span class="discount">-30%</span>
+										
+									</div>
+									<div class="content-card-product">
+										<br><br>	
+										<br><h3>CModelo 04</h3>
+										
+										<p class="price">S/. 50.90 <span>S/. 70.90</span></p>
+									</div>
+								</div>
+							</div>
+			
+							<!-- The modal_promociones -->
+							<div id="myModal_promociones" class="modal_promociones">
+								<!-- The Close Button -->
+								<span class="close">&times;</span>
+							
+								<!-- modal_promociones Content (The Image) -->
+								<img class="modal_promociones-content" id="img01_promociones">						
+							
+								<!-- modal_promociones Caption (Image Text) -->
+								<div id="caption_promociones"></div>
+							</div>
+							<script src="6_index_vista_previa.js"></script>						
+							</section>
+					</div>
+			
+			
+			
+			
+			
+			
+				
+				</main>
+			
+				<script src="https:///kit.fontawesome.com/2c36e9b7b1.js"></script>
+			
+			
+				
+				</index>
+			</div>
+			
+			<!-- ----------------------------------------------------------------------------- Mujeres-->
+
+
+			<div id="News" class="tabcontent">
+				
+				<mujeres>
+					<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+					<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+					<link rel="stylesheet" href="11_mujeres.css">
+				
+					<div class="wrapper">
+						<header class="header-mobile">
+							<!-- <a href="https://wamurot.github.io/slam/"> <button class="btn-regresar2"><i class="fas fa-arrow-left"></i> Regresar</button></a> -->
+							<button class="open-menu" id="open-menu">
+								<i class="bi bi-list"></i>
+							</button>
+						</header>
+						<aside>
+							<button class="close-menu" id="close-menu">
+								<i class="bi bi-x"></i>
+							</button>
+							<header>
+								<!-- <a href="https://wamurot.github.io/slam/"><button class="btn-regresar1"><i class="fas fa-arrow-left"></i> Regresar </button></a> -->
+				
+							   <br><br> <h1 class="logo">Mujeres</h1>
+								
+							</header>
+							<nav>
+								<ul class="menu">
+									<li>
+										<button id="todos" class="boton-menu boton-categoria active"><i class="bi bi-hand-index-thumb-fill"></i> Todos los productos</button>
+									</li>
+									<li>
+										<button id="blusas-polos" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Blusas y polos</button>
+									</li>
+									<li>
+										<button id="vestidos" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Vestidos</button>
+									</li>
+									<li>
+										<button id="bodys" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Bodys</button>
+									</li>
+									<li>
+										<!-- <a class="boton-menu boton-carrito" href="./mujeres_carrito.html"> -->
+										<a class="boton-menu boton-carrito" href="15_mujeres_html_carrito.html">
+											<i class="bi bi-cart-fill"></i> Carrito <span id="numerito" class="numerito">0</span>
+										</a>
+									</li>
+								</ul>
+							</nav>
+							<footer>
+				
+								<!-- <p class="texto-footer">© 2022 Carpi Coder</p> -->
+				
+								<p class="texto-footer">Walter Muro Toscanelli</p>
+				
+							</footer>
+						</aside>
+						<main>
+							<h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>
+							<div id="contenedor-productos" class="contenedor-productos">
+								<!-- Esto se va a rellenar con JS -->
+							</div>
+						</main>
+					</div>
+					
+					<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+					<script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+					<script src="12_mujeres_js_main.js"></script>
+					<script src="13_mujeres_js_menu.js"></script>
+				</mujeres>
+			  
+			</div>
+
+
+
+			<!-- ----------------------------------------------------------------------------- Hombres -->
+			
+			<div id="Contact" class="tabcontent">
+
+				<hombres>						
+					<link rel="stylesheet" href="21_hombres.css">
+					<link rel="stylesheet" href="22_hombres_vista_previa.css">
+					
+				
+						
+					
+					
+					   <br><br><br> <div id="myBtnContainer">
+						  <button class="btn active" onclick="filterSelection('all')"> Todo</button>
+						  <button class="btn" onclick="filterSelection('nature')">Polos</button>
+						  <button class="btn" onclick="filterSelection('cars')"> Bodys</button>
+					
+						  <!-- <button class="btn" onclick="filterSelection('people')"> People</button> -->
+						</div>
+						
+						
+    <!-- Portfolio Gallery Grid -->
+    <div class="row">
+
+       
+          
+        <div class="column nature">
+            <div class="content">
+              <img id="polo01_hombres" src="/mujeres_img/Blusas_y_polos/p1.jpg" alt="Lights" style="width:100%">
+              <h4>Lights</h4>
+              <p>Lorem ipsum dolor..</p>
+            </div>
+        </div>
+          
+        <div class="column nature">
+            <div class="content">
+              <img id="polo02_hombres" src="/mujeres_img/Blusas_y_polos/p2.jpg" alt="Lights" style="width:100%">
+              <h4>Lights</h4>
+              <p>Lorem ipsum dolor..</p>
+            </div>
+        </div>
+            
+      <div class="column nature">
+        <div class="content">
+          <img id="polo03_hombres" src="/mujeres_img/Blusas_y_polos/p3.jpg" alt="Nature" style="width:100%">
+          <h4>Forest</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+    
+      <div class="column nature">
+        <div class="content">
+          <img id="polo04_hombres" src="/mujeres_img/Blusas_y_polos/p4.jpg" alt="Car" style="width:100%">
+          <h4>Retro</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column nature">
+        <div class="content">
+          <img id="polo05_hombres" src="/mujeres_img/Blusas_y_polos/p5.jpg" alt="Car" style="width:100%">
+          <h4>Fast</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column nature">
+        <div class="content">
+          <img id="polo06_hombres" src="/mujeres_img/Blusas_y_polos/p6.jpg" alt="Car" style="width:100%">
+          <h4>Classic</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+    
+      <div class="column nature">
+        <div class="content">
+          <img id="polo07_hombres" src="/mujeres_img/Blusas_y_polos/p7.jpg" alt="People" style="width:100%">
+          <h4>Girl</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column cars">
+        <div class="content">
+          <img id="body01_hombres" src="/mujeres_img/Bodys/p1.jpg" alt="People" style="width:100%">
+          <h4>Man</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column cars">
+        <div class="content">
+          <img id="body02_hombres" src="/mujeres_img/Bodys/p2.jpg" alt="People" style="width:100%">
+          <h4>Woman</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column cars">
+        <div class="content">
+          <img id="body03_hombres" src="/mujeres_img/Bodys/p3.jpg" alt="People" style="width:100%">
+          <h4>Woman</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+    <!-- END GRID -->
+    </div>
+
+
+    
+    
+	<div id="mymodal_hombres" class="modal_hombres">
+        <!-- The closehombres Button -->
+        <span class="closehombres">&times;</span>
+    
+        <!-- Modal Content (The Image) -->
+        <img class="modal_hombres-content" id="img01_hombres">						
+    
+        <!-- Modal captionhombres (Image Text) -->
+        <div id="captionhombres"></div>
+    </div>
+
+	
+    <script src="23_hombres_vista_previa.js"></script>
+    <script src="24_hombres_menu.js"></script>
+
+
+
+
+		
+				</hombres>
+			 
+			</div>
+			
+			
+		
+
+			<!-- ----------------------------------------------------------------------------- carrito --->
+
+			 <div id="About" class="tabcontent">    
+
+				<carrito>
+		
+					<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+					<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+					<link rel="stylesheet" href="11_mujeres.css">
+					<link rel="stylesheet" href="12_mujeres.css">
+
+				
+					<div class="wrapper">
+						<header class="header-mobile">
+							<h1 class="logo">CarpiShop</h1>
+							<button class="open-menu" id="open-menu">
+								<i class="bi bi-list"></i>
+							</button>
+						</header>
+						<aside>
+							<button class="close-menu" id="close-menu">
+								<i class="bi bi-x"></i>
+							</button>
+							<header>
+								<h1 class="logo">CarpiShop</h1>
+							</header>
+							<nav>
+								<ul>
+									<li>
+																
+											<i class="bi bi-arrow-return-left"></i> Seguir comprando
+										</a>
+									</li>
+									<li>
+										<a class="boton-menu boton-carrito active" href="0_index.html">
+											<i class="bi bi-cart-fill"></i> Carrito
+										</a>
+									</li>
+								</ul>
+							</nav>
+							<footer>
+								<p class="texto-footer">SLAM</p>
+							</footer>
+						</aside>
+						<main>
+							<h2 class="titulo-principal">Carrito</h2>
+							<div class="contenedor-carrito">
+								<p id="carrito-vacio" class="carrito-vacio">Tu carrito está vacío. <i class="bi bi-emoji-frown"></i></p>
+				
+								<div id="carrito-productos" class="carrito-productos disabled">
+									<!-- Esto se va a completar con el JS -->
+								</div>
+				
+								<div id="carrito-acciones" class="carrito-acciones disabled">
+									<div class="carrito-acciones-izquierda">
+										<button id="carrito-acciones-vaciar" class="carrito-acciones-vaciar">Vaciar carrito</button>
+									</div>
+									<div class="carrito-acciones-derecha">
+										<div class="carrito-acciones-total">
+											<p>Total:</p>
+											<p id="total">$3000</p>
+										</div>
+										<button id="carrito-acciones-comprar" class="carrito-acciones-comprar">Comprar ahora</button>
+									</div>
+								</div>
+				
+								<p id="carrito-comprado" class="carrito-comprado disabled">Muchas gracias por tu compra. <i class="bi bi-emoji-laughing"></i></p>
+				
+							</div>
+						</main>
+					</div>
+					
+					<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+					<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+					<script src="16_mujeres_js_carrito.js"></script>
+			
+				</carrito>
+			
+			</div>
+	
+			  
+			  <script src="5_index_js_pestaña.js"></script>
+	</pesta>
+	
+
+
+	
+	</main>
+
+	<script src="https:///kit.fontawesome.com/2c36e9b7b1.js"></script>
+
+
+	
+</body>
+
+<footer class="footer-distributed">
+
+	<div class="footer-contenido">
+
+		<div class="footer-left">
+			<h3>SLAM<span><br>Moda que trasciende.</span></h3>
+
+			<!-- <p class="footer-links">
+				<a href="#">Home</a>
+				|
+				<a href="#">About</a>
+				|
+				<a href="#">Contact</a>
+				|
+				<a href="#">Blog</a>
+			</p> -->
+
+		</div>
+
+		<div class="footer-center">
+			<div>
+				<i class="fa fa-map-marker"></i>
+				<p><span>Calle La Florida, 935 - Urb. San Eduardo
+				</span>
+				Chiclayo - Lambayeque</p>
+			</div>
+				<br>
+			<div>
+				<i class="fa fa-phone"></i>
+				<p>972420849 - 924508368</p>
+			</div>
+			
+		</div>
+		<div class="footer-right">
+			<p class="footer-company-about">
+				<span>Contáctanos</span>
+				
+				<!-- <strong>Escríbenos con confianza</strong> para más información de nuestros productos, 
+				opciones de pago y envíos. -->
+			</p>
+			<div class="footer-icons">
+				<a href="#"><i class="fa fa-whatsapp"></i></a>
+				<a href="#"><i class="fa fa-facebook"></i></a>
+				<a href="#"><i class="fa fa-instagram"></i></a>		
+			</div>
+		</div>
+	</div>
+	<script src="https:///kit.fontawesome.com/2c36e9b7b1.js"></script>
+</footer>
+
+
+
+</html>

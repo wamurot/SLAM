@@ -1,18 +1,24 @@
-/* Style the Image Used to Trigger the Modal */
+/* Style the Image Used to Trigger the modal_hombres */
 #myImg01 {
   border-radius: 5px;
   cursor: pointer;
-  transition: 0.3s;
+  transition: 0.9s;
 }
 
-#promo01:hover {opacity: 0.7;}
-#promo02:hover {opacity: 0.7;}
-#promo03:hover {opacity: 0.7;}
-#promo04:hover {opacity: 0.7;}
+#polo01:hover {opacity: 0.7;}
+#polo02:hover {opacity: 0.7;}
+#polo03:hover {opacity: 0.7;}
+#polo04:hover {opacity: 0.7;}
+#polo05:hover {opacity: 0.7;}
+#polo06:hover {opacity: 0.7;}
+#polo07:hover {opacity: 0.7;}
+#body01:hover {opacity: 0.7;}
+#body02:hover {opacity: 0.7;}
+#body03:hover {opacity: 0.7;}
 
 
-/* The Modal (background) */
-.modal {
+/* The modal_hombres (background) */
+.modal_hombres {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
@@ -26,16 +32,16 @@
   background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
 }
 
-/* Modal Content (Image) */
-.modal-content {
+/* modal_hombres Content (Image) */
+.modal_hombres-content {
   margin: auto;
   display: block;
   width: 80%;
   max-width: 600px;           /*tamaño de la foto en la vista*/
 }
 
-/* Caption of Modal Image (Image Text) - Same Width as the Image */
-#caption {
+/* captionhombres of modal_hombres Image (Image Text) - Same Width as the Image */
+#captionhombres {
   margin: auto;
   display: block;
   width: 80%;
@@ -46,10 +52,10 @@
   height: 150px;
 }
 
-/* Add Animation - Zoom in the Modal */
-.modal-content, #caption {
+/* Add Animation - Zoom in the modal_hombres */
+.modal_hombres-content, #captionhombres {
   animation-name: zoom;
-  animation-duration: 0.6s;
+  animation-duration: 0.5s;       /*tiempo en visualizar la foto*/
 }
 
 @keyframes zoom {
@@ -57,8 +63,8 @@
   to {transform:scale(1)}
 }
 
-/* The Close Button */
-.close {
+/* The closehombres Button */
+.closehombres {
   position: absolute;
   top: 50px;
   right: 620px;
@@ -68,8 +74,8 @@
   transition: 0.3s;
 }
 
-.close:hover,
-.close:focus {
+.closehombres:hover,
+.closehombres:focus {
   color: #bbb;
   text-decoration: none;
   cursor: pointer;
@@ -78,11 +84,11 @@
 
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){
-  .modal-content {
+  .modal_hombres-content {
     width: 80%;
   }
 
-  .close {
+  .closehombres {
     position: absolute;
     top: 50px;
     right: 20px;

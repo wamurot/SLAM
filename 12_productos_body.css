@@ -115,7 +115,7 @@ html {
   }
   
   /* Add a dark background color to the active_mujeres button */
-  .btn.active_mujeres {
+  .btn.active{
 	background-color: #666;
 	 color: white;
   }

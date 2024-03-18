@@ -114,7 +114,7 @@ html {
 	background-color: #ddd;
   }
   
-  /* Add a dark background color to the active_mujeres button */
+  /* Add a dark background color to the active_productos button */
   .btn.active{
 	background-color: #666;
 	 color: white;

@@ -5,16 +5,16 @@
   transition: 0.9s;
 }
 
-#polo01:hover {opacity: 0.7;}
-#polo02:hover {opacity: 0.7;}
-#polo03:hover {opacity: 0.7;}
-#polo04:hover {opacity: 0.7;}
-#polo05:hover {opacity: 0.7;}
-#polo06:hover {opacity: 0.7;}
-#polo07:hover {opacity: 0.7;}
-#body01:hover {opacity: 0.7;}
-#body02:hover {opacity: 0.7;}
-#body03:hover {opacity: 0.7;}
+#polo01_productos:hover {opacity: 0.7;}
+#polo02_productos:hover {opacity: 0.7;}
+#polo03_productos:hover {opacity: 0.7;}
+#polo04_productos:hover {opacity: 0.7;}
+#polo05_productos:hover {opacity: 0.7;}
+#polo06_productos:hover {opacity: 0.7;}
+#polo07_productos:hover {opacity: 0.7;}
+#body01_productos:hover {opacity: 0.7;}
+#body02_productos:hover {opacity: 0.7;}
+#body03_productos:hover {opacity: 0.7;}
 
 
 /* The modal_productos (background) */
@@ -66,8 +66,13 @@
 /* The closeproductos Button */
 .closeproductos {
   position: absolute;
-  top: 50px;
-  right: 620px;
+  top: 5%;
+  margin-left: 66% ;
+  margin: auto;
+  display: block;
+  margin-left: 67%;
+
+  /* right: 33%; */
   color: #f1f1f1;
   font-size: 40px;
   font-weight: bold;
@@ -81,6 +86,8 @@
   cursor: pointer;
   
 }
+
+
 
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){
@@ -96,3 +103,7 @@
   }
 
 }
+
+
+
+

@@ -57,7 +57,7 @@
 	
 	.bg-img_head {
 		/* The image used */
-		background-image: url("/index_img/slider/slider2.jpg");
+		background-image: url("index_img/slider/slider2.jpg");
 		background-image: 10px;
 	  
 		min-height: 300px;

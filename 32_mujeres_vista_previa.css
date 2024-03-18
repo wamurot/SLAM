@@ -1,4 +1,4 @@
-/* Style the Image Used to Trigger the Modal */
+/* Style the Image Used to Trigger the modal_mujeres */
 #myImg01 {
   border-radius: 5px;
   cursor: pointer;
@@ -14,10 +14,11 @@
 #polo07:hover {opacity: 0.7;}
 #body01:hover {opacity: 0.7;}
 #body02:hover {opacity: 0.7;}
-#body03.close {opacity: 0.7;}
+#body03:hover {opacity: 0.7;}
 
-/* The Modal (background) */
-.modal {
+
+/* The modal_mujeres (background) */
+.modal_mujeres {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
@@ -31,16 +32,16 @@
   background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
 }
 
-/* Modal Content (Image) */
-.modal-content {
+/* modal_mujeres Content (Image) */
+.modal_mujeres-content {
   margin: auto;
   display: block;
   width: 80%;
   max-width: 600px;           /*tamaño de la foto en la vista*/
 }
 
-/* Caption of Modal Image (Image Text) - Same Width as the Image */
-#caption {
+/* captionmujeres of modal_mujeres Image (Image Text) - Same Width as the Image */
+#captionmujeres {
   margin: auto;
   display: block;
   width: 80%;
@@ -51,8 +52,8 @@
   height: 150px;
 }
 
-/* Add Animation - Zoom in the Modal */
-.modal-content, #caption {
+/* Add Animation - Zoom in the modal_mujeres */
+.modal_mujeres-content, #captionmujeres {
   animation-name: zoom;
   animation-duration: 0.3s;       /*tiempo en visualizar la foto*/
 }
@@ -62,8 +63,8 @@
   to {transform:scale(1)}
 }
 
-/* The Close Button */
-.close {
+/* The closemujeres Button */
+.closemujeres {
   position: absolute;
   top: 50px;
   right: 620px;
@@ -73,8 +74,8 @@
   transition: 0.3s;
 }
 
-.close:hover,
-.close:focus {
+.closemujeres:hover,
+.closemujeres:focus {
   color: #bbb;
   text-decoration: none;
   cursor: pointer;
@@ -83,11 +84,11 @@
 
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){
-  .modal-content {
+  .modal_mujeres-content {
     width: 80%;
   }
 
-  .close {
+  .closemujeres {
     position: absolute;
     top: 50px;
     right: 20px;

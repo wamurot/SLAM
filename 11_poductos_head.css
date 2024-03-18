@@ -50,37 +50,3 @@
 	background-color: #ddd;
 	color: black;
   }
-
-  
-@media (max-width: 768px) {
-
-	
-	.bg-img_head {
-		/* The image used */
-		background-image: url("/index_img/slider/slider2.jpg");
-		background-image: 10px;
-	  
-		min-height: 300px;
-	  z
-		/* Center and scale the image nicely */
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-	  
-		/* Needed to position the navbar */
-		position: relative;
-	  }
-
-	  
-  .logo{
-
-	margin-top: 10px;
-	margin-left: 10px;
-	width: 30%;
-
-
-  }
-  
-	
-	
-	}

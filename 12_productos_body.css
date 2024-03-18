@@ -14,7 +14,7 @@ html {
   
   /* Style tab links */
   .tablink {
-	background-color: #555;
+	background-color: #2d2a30;      /* color de las pestañas*/
 	color: white;
 	float: left;
 	border: none;

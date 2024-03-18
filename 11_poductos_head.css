@@ -31,9 +31,9 @@
   }
   
   /* The navbar */
-  .topnav_head {
-	overflow: hidden;
-	background-color: #888787;
+  .topnav_head {                     /*  color de la cinta del menu*/
+	overflow: hidden; 
+	background-color: #2d2a30;
   }
   
   /* Navbar links */

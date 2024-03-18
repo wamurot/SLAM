@@ -33,13 +33,13 @@
   /* The navbar */
   .topnav_head {
 	overflow: hidden;
-	background-color: #888787;
+	background-color: #2d2a30;         /*color de la cinta del menu*/
   }
   
   /* Navbar links */
   .topnav_head a {
 	float: left;
-	color: #f2f2f2;
+	color: #f2f2f2;            /*color de letras de menu*/
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
@@ -47,8 +47,8 @@
   }
   
   .topnav_head a:hover {
-	background-color: #ddd;
-	color: black;
+	background-color: #ddd;     /*color de sombreado del menu*/
+	color: black;				/*color de letras*/
   }
 
   

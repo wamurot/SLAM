@@ -20,6 +20,7 @@
 
 
 .header .logo img{
+	margin-top: 10px;
 	height: 70px;
 	width: auto;
 	transition: all 0.3s;

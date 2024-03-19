@@ -50,7 +50,7 @@
     
 
 
-    @media (max-width: 1500px) {
+    @media (max-width: 1500px) and (min-width: 900px) {
 
  
         .header .nav-links{
@@ -58,8 +58,6 @@
         }
                 
         }
-    
-
 
 
 

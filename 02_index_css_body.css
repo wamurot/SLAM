@@ -31,12 +31,6 @@ html {
 /*               slider               */
 /* ********************************** */
 
-
-
-
-
-
-
 .bg-img_head {
 	/* The image used */
 	background-image: url("index_img/slider/slider2.jpg");
@@ -317,6 +311,3 @@ html {
 	gap: 2rem;
 	margin-bottom: 3rem;
 }
-/* ********************************** */
-/*       MEDIA QUERIES -- 768px       */
-/* ********************************** */

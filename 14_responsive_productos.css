@@ -50,10 +50,15 @@
     
 
 
+    @media (max-width: 1500px) {
 
-
-
-
+ 
+        .header .nav-links{
+            margin-right: 450px;
+        }
+                
+        }
+    
 
 
 

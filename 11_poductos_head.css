@@ -1,52 +1,99 @@
-.bg-img_head {
-	/* The image used */
-	background-image: url("/index_img/slider/slider2.jpg");
-	background-image: 10px;
-  
-	min-height: 700px;
-  
-	/* Center and scale the image nicely */
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-  
-	/* Needed to position the navbar */
-	position: relative;
-  }
-
-  .logo{
-
-	margin-top: 100px;
-	margin-left: 100px;
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+}
 
 
-  }
-  
-  
-  /* Position the navbar container inside the image */
-  .container_head {
-	position: absolute;
-	margin: 20px;
+.header{
+	
+	background-color: #2d2a30;	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;       /* se centra en vertical*/
+	padding: 5px 2%;      /*arriba y abajo   -  costados*/
+	
+}
+
+
+
+
+.header .logo img{
+	height: 70px;
 	width: auto;
-  }
-  
-  /* The navbar */
-  .topnav_head {                     /*  color de la cinta del menu*/
-	overflow: hidden; 
-	background-color: #2d2a30;
-  }
-  
-  /* Navbar links */
-  .topnav_head a {
-	float: left;
-	color: #f2f2f2;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-size: 17px;
-  }
-  
-  .topnav_head a:hover {
+	transition: all 0.3s;
+}
+
+.header .logo img:hover{
+	transform: scale(1.2);
+}
+
+
+.header .nav-links{
+	flex-direction: column;
+	list-style: none;         /*sacar puntitos*/
+	margin-right: 700px;
+
+}
+
+.header .nav-links li{         /*se ponen en horizontal*/
+	display: inline-block;
+	padding: 0 20px;
+	
+	
+}
+
+.header .nav-links li:hover{       
+	transform: scale(1.1);
+	/* background-color: #ddd;     color de sombreado del menu */
+	color: black;				/*color de letras*/
+}
+
+.header .nav-links a{         /*se ponen en horizontal*/
+	font-size: 700;
+	color: #ddd;
+	text-decoration: none;    /*quitar subrayado*/
+	
+	
+	
+}
+
+.header .nav-links a:hover{         /*se ponen en horizontal*/
+
+	color: #ffffff;
+	border-bottom: 3px solid red;
+	
+	
+}
+
+
+
+.header .nav-links a{         /*se ponen en horizontal*/
+	font-size: 700;
+	color: #ddd;
+	text-decoration: none;    /*quitar subrayado*/
+	
+	
+}
+
+.header .btn button{
+	font-weight: 700;
+	color: #383838;
+	padding: 9px 25px;
 	background-color: #ddd;
-	color: black;
-  }
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+
+.header .btn button:hover{
+	background-color: #ddd;
+	color: #b60b0b;
+	transform: scale(1.1);
+}
+
+ 
+
+

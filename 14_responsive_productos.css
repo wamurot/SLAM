@@ -1,0 +1,74 @@
+
+
+
+
+
+
+
+
+
+/* --------------------------------------HEAD------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------------BODY------------------------------------------------------------- */
+
+
+
+
+
+
+@media (max-width: 768px) {
+  
+	.column {
+	 
+	  width: 33.33%;
+	  
+	}
+  
+  }
+  
+  
+  
+
+
+
+/* --------------------------------------FOOTER------------------------------------------------------------- */
+
+
+
+
+
+
+@media (max-width: 880px) {
+
+
+
+    footer {
+        position: static;
+    }
+    .footer-distributed {
+        padding: 20px 0;
+    }
+    .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;              
+    }
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+
+}       
+        
+
+

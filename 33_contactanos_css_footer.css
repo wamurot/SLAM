@@ -1,5 +1,12 @@
 
 
+/* 
+footer {
+    position: fixed;   con esto se mantiene fijo
+    bottom: 0;
+} */
+
+
 .footer-distributed {
     background-color: #2d2a30;
     box-sizing: border-box;
@@ -10,8 +17,7 @@
     margin-top: 80px;
     
 }
-
-     
+    
 
 .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
     display: inline-block;
@@ -26,7 +32,7 @@
 
 .footer-distributed h3 {
     color: #ffffff;
-    font: normal 26px 'Cookie';
+    font: normal 26px 'Cookie', cursive;
     margin: 0;
 }
 
@@ -35,7 +41,7 @@
 .footer-distributed h3 span {
     
     color: #e0ac1c;
-    font: normal 20px 'Cookie';
+    font: normal 20px 'Cookie', cursive;
 }
 
 
@@ -83,7 +89,7 @@
 
 .footer-distributed .footer-company-about {
     line-height: 20px;
-    color: #ff0000;
+    color: #92999f;
     font-size: 13px;
     font-weight: normal;
     margin: 0;
@@ -124,5 +130,3 @@
     color: #3F71EA;
 }
 
-
-        
